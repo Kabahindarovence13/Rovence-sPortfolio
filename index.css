@@ -1,0 +1,149 @@
+#top_navbar {
+    background-color:white;
+    overflow: hidden;
+    position:relative; 
+    width:100%; 
+   
+}
+
+#top_navbar a{
+float:right;
+color:red;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-size:17px;
+}
+#top_navbar a:hover{
+    background-color:black;
+    color:white;
+}
+img{
+    position:relative;
+}
+#container{
+    position:relative;
+    color:red;
+}
+#topright{
+    position:absolute;
+    top:70px;
+    left:1%;
+    right:70%;
+    font-size:18px;
+    width:500px;
+    padding:8px;
+    
+    border-radius: 15px;
+    border: 2px 2px 2px 2px;
+  
+    margin:0;
+    font-size: 20px;
+    }
+    h1{color:white;
+    font-size:60px;}
+    h2 {
+        text-align: center;
+    } 
+
+
+ 
+      #About{
+  position:inherit;
+      
+        color:white;
+        font-size: large;
+        text-align: center;
+        background-color: black;
+    }
+    #projects{
+        padding-top: 0%;
+       background-color: black;
+        color:white;
+        
+        display:inline-grid;
+        grid-gap:5px 10px;
+       
+      
+    }
+
+    .item1{
+        grid-column-start:1;
+        grid-column-end:2;
+        
+    }
+    .item2{
+        grid-column-start:3;
+        grid-column-end:5;
+        
+    }
+    .item3{
+        grid-column-start:6;
+        grid-column-end:8;
+    }
+    .item4{
+        grid-column-start:9;
+        grid-column-end:12;
+    }
+    .item5{
+        grid-column-start:13;
+        grid-column-end:16;
+    }
+
+
+    ul{
+ 
+        font-size: 30px;
+      color:white;
+        padding-left: 30%;
+        position: relative;
+        padding-top: 6px;
+     }
+     
+
+     #right1{
+     position:relative;
+     font-size:30px;
+     color:white;
+     
+     padding-left: 30%;
+    padding-top:6px;
+     }
+     #contacts{background-color:black;
+   
+     }
+     button{
+         border-radius: 15px;
+         background-color: white;
+         font-size: 24px;
+         
+  
+     }
+     footer{
+         font-weight: bold;
+         font-size: large;
+         color:black;
+         background-color: white;
+         text-align: center;
+     }
+    
+     @media only screen and (max-width: 700px) {
+         
+        .deviceWidth{width:290px!important;padding:0;}
+        .center{text-align:center!important;}
+        .Projects{
+   display: block;
+            font-size: 20px;
+        flex:50%;
+            float: left;
+            width: 20%;
+          
+        }
+        @media only screen and (orientation: landscape) {
+            body {
+              background-color: lightblue;
+            }
+          }
+
+        }
+    
