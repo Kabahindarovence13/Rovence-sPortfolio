@@ -2,7 +2,13 @@
 
 <head>
     <title></title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Portfolio">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Rovence">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Arvo/Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Esteban' rel='stylesheet'>
     <style>
         body {
             font-family: 'Montserrat';
@@ -14,6 +20,7 @@
 
 <body>
     <div id="top_navbar"><strong>
+
             <a href="#Contacts">CONTACTS</a>
             <a href="#Projects">PROJECTS</a>
             <a href="#About">ABOUT</a>
@@ -22,100 +29,128 @@
     </div>
     <div id="container">
         <img src="./images/rovie123.jpg" height="" width="100%">
-</body>
+    </div>
+
 
 <div id="topright" style="text-align:left;">
-    My name is </br>
+    <p class="brief-stat">My name is</p></br>
 
-    <h1><strong>Rovence</strong></h1>
-    <p>I am very passionate about web designing, software and mobile app development plus Graphics designing. </p>
+    <h1 class="name"><strong>Rovence</strong></h1>
+    <p class="brief-stat">I am very passionate about web designing, software and mobile app development,Graphics designing and business generally. </p>
 
 </div>
 </div>
 
-<h2 style="color:red;">About Me</h2>
-<div id="About">
+<h2 class="heading1">About</h2>
+<div id="About-me-section">
 
 
 
-    <div id="righttop" style="text-align:left;position: relative;">
+    <div id="righttop">
 
-        <h1 style="color:red;">Rovence - An up coming full stack web developer</h1>
+        <h1 class="who-rovence"style="color:#66FCF1;">Full stack web developer, Graphics Designer and Enterprenuer</h1>
+        <div class="details">
         <p>
             <strong>Kabahinda Rovence</strong> is an enthusiastic passionate and optimistic 3rd year Software
             Engineering Student at Makerere University.
-            Currently I am good at front end and some bit of backend(Java Script and Php) though still learning more of
-            this.</p>
-        <p>I also do some graphics designing(posters, business cards, Logos) for people Uisng illustrator and photoshop
+            Currently I am good at front end and backend(Java Script and Php)</p>
+        <p>I also do graphics designing(posters, business cards, Logos) using adobe illustrator and photoshop
         </p>
+        <p>I have passion in business, I own and operate a fresh fruit juice business called Oasis_fruit Juice</p>
         <p>Not forgetting about my good hobby; cooking: Oh yeah! I am an amazing cook</p>
-
-        <p style="color:red;font-size:x-large;">Passion, optimism difine everything i do.</p>
         
+        <div class="driving-force">
+
+        <p style="color:#66FCF1;font-size:x-large;">Passion, optimism difine everything i do.</p>
+        </div>
+    </div>
+
     </div>
     <p style="font-size:40px;"><button onlick="document.location='KabahindaRovenceCV2020.doc'">Get My CV ></button></p>
-   
+
 
 </div>
-<h2 style="color:red;">Projects</h2>
-<p>Currently I am learning Web development(html, css, jquery and Javascript) as well as Content Management
-    Systems(CMS). Languages I have worked with are; Javascript, Nodejs, Reactjs, php and Python</p>
-    <p>Take a look at some of the projects I have done, with some still in progress.</p>
+<h2 class="heading2">Projects</h2>
+<p class="projectstat">I am currently ehancing on Web development knowledge(html, css, jquery and Javascript) as well as Content Management Systems(CMS). Languages I have worked with are; Javascript, Nodejs, Reactjs, php and Python</p>
+<p class="projects-intro-stat">Below are some of the projects i have done, with some still in progress.</p>
 <div id="Projects">
 
-    <div class="item1">
+    <div class="row">
+        <div class="column">
+            <p>
+                <div class="card">
+                    <img src=".\images\kingline2.PNG" width="100%" height="100%">
+                    <p><b>A redesign of Kinglinepress website using CMS</b></p>
 
-    
-    <p><a href="internship.eastafrica.website"><img src=".\images\kingline2.PNG" width="320px" height="250px"></a></p>
-    <p>A redesign of Kinglinepress website using CMS</p>
-    </div>
-   
-    <div class="item2">
-        
-    <p><a href="https://github.com/Kabahindarovence13/Movie-lab-react-project"><img src="./images/mymovielib.jpg" height="" width="" alt="MyMovie Lib"></a></p>
-        <p>My MovieLib react project.</p>
-    </div>
-   
-    <div class="item3">
-<p><a href="https://github.com/Kabahindarovence13/RECESS_PROJECT_2019.git"><img src="./images/DPP model.jpg" width="" height="" alt="DPP MODEL"></a></p>
-    <p>Diabetes Prevalence Prediction (DPP) model</p>
+                </div>
+            </p>
         </div>
-    <div class="item4">
-        <p><img src=".\images\kingline.PNG"width="390px" height="250px"></p>
-        <p>Home Page for Kingline Press ltd</p>
-    </div>
- 
-    <div class="item5">
+
+        <div class="column">
+            <p>
+                <div class="card">
+                   <img src="./images/my-movie-lib.png" width="100%" height="100%">
+                    <p><b><a href="https://my-movie-lab.herokuapp.com">My MovieLib react web app</a></b></p>
+
+                </div>
+            </p>
+        </div>
+
+
+        <div class="column">
+            <p>
+                <div class="card">
+                    <img src="./images/DPP model.jpg" width="100%" height="100%">
+                    <p><b>Diabetes Prevalence Prediction (DPP) model</b></p>
+
+                </div>
+            </p>
+        </div>
+
+        <div class="column">
+            <p>
+                <div class="card">
+                    <img src=".\images\kingline.PNG" width="100%" height="100%">
+                    <p><b>Home Page for Kingline Press ltd</b></p>
+
+                </div>
+            
+            </p>
+        </div>
+        
+        <div class="column">
+            <p>
+                <div class="card">
+                    <img src=".\images\edu.PNG" width="100%" height="100%">
+                    <p><b><a href=" https://outboxafrica.github.io/edu_prepvii_doha/UI/homePage.html#">EDU online shop web app</a></b></p>
+
+                </div>
+            
+            </p>
+        </div>
+
+
     </div>
 
 </div>
 
-<h2 style="color: red;">Contacts</h2>
+<h2 class="heading3">Contacts</h2>
 <div id="Contacts">
+    <div class="right2">
+        <p><a href="kabahindarovemce@gmail.com"><img src=".\images\iconsemail.png"></a>
+            <a href="https://ug.linkedin.com/in/kabahinda-rovence-53971a197"><img src=".\images\iconsin.png" height="" width=""></a> 
+            <a href="https://twitter.com/@muhaara"><img src=".\images\iconstweet.png"></a>
+            <a href="https://www.facebook.com/public/Kabahinda-Lovence"><img src=".\images\iconsfb.png"></a>
+        </p>
+        <p class="thank-you">Thank you for stoppingby!</p>
 
-    <p style="position:absolute; color:red;">TO GET IN TOUCH</p>
-
-    <div id="right1">
-        <P style="color:white;">To inqire about a new project or</br>just to say hi!, email me at</P>
-        <p><a href="kabahindarovemce@gmail.com">Kabahindarovence@gmail.com</a></p>
-    </div>
-    <p style="position: absolute; color:red;">OR FIND ME ON</p>
-    <div id="right2">
-        <ul>
-
-            <ol><a href="https://ug.linkedin.com/in/kabahinda-rovence-53971a197">LinkedIn</a></ol>
-            <ol><a href="https://medium.com/@kabahindarovence">Medium</a></ol>
-            <ol><a href="https://twitter.com/@muhaara">Twitter</a></ol>
-            <ol><a href="https://www.facebook.com/public/Kabahinda-Lovence">Facebook</a></ol>
-            <p>Thank you for stoppingby!</p>
-        </ul>
-        <footer>
-            <p>&copy; Rovence@EduOutBox2020</p>
+        <footer class="footer">
+            <p>&copy;Rovence2020</p>
         </footer>
 
     </div>
 </div>
-
+</body>
 
 
 </html>
